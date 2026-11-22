@@ -1,0 +1,904 @@
+[2026-09-06 04:58:02] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-06 04:58:02] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-06 04:58:02] [INFO] [discord.client] logging in using static token
+[2026-09-06 04:58:02] [ERROR] [asyncio] Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<Client.start() done, defined at /home/container/.venv/lib/python3.12/site-packages/discord/client.py:829> exception=LoginFailure('Improper token has been passed.')>
+Traceback (most recent call last):
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-09-06 04:58:09] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-06 04:58:09] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-06 04:58:09] [INFO] [discord.client] logging in using static token
+[2026-09-06 04:58:09] [ERROR] [asyncio] Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<Client.start() done, defined at /home/container/.venv/lib/python3.12/site-packages/discord/client.py:829> exception=LoginFailure('Improper token has been passed.')>
+Traceback (most recent call last):
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-09-06 04:58:35] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-06 04:58:35] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-06 04:58:35] [INFO] [discord.client] logging in using static token
+[2026-09-06 04:58:35] [INFO] [__main__] Menginisialisasi database...
+[2026-09-06 04:58:35] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-06 04:58:35] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-06 04:58:35] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-06 04:58:35] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-06 04:58:35] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-06 04:58:35] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-06 04:58:35] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-06 04:58:35] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-06 04:58:36] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-06 04:58:36] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-06 04:58:36] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-06 04:58:36] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (15 command). Perubahan langsung terlihat di guild ini.
+[2026-09-06 04:58:39] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-06 04:58:39] [INFO] [__main__] Terhubung ke 2 server.
+[2026-09-06 04:58:39] [INFO] [cogs.invites] Invite cache dimuat untuk 2 guild.
+[2026-09-06 07:40:39] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-06 07:40:45] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-06 07:40:45] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-06 07:40:45] [INFO] [discord.client] logging in using static token
+[2026-09-06 07:40:45] [INFO] [__main__] Menginisialisasi database...
+[2026-09-06 07:40:45] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-06 07:40:45] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-06 07:40:45] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-06 07:40:45] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-06 07:40:46] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-06 07:40:46] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-06 07:40:46] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-06 07:40:46] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-06 07:40:46] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-06 07:40:46] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-06 07:40:46] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-06 07:40:46] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (15 command). Perubahan langsung terlihat di guild ini.
+[2026-09-06 07:40:49] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-06 07:40:49] [INFO] [__main__] Terhubung ke 2 server.
+[2026-09-06 07:40:49] [INFO] [cogs.invites] Invite cache dimuat untuk 2 guild.
+[2026-09-06 08:13:33] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-06 08:13:39] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-06 08:13:39] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-06 08:13:39] [INFO] [discord.client] logging in using static token
+[2026-09-06 08:13:40] [INFO] [__main__] Menginisialisasi database...
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-06 08:13:40] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-06 08:13:40] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (15 command). Perubahan langsung terlihat di guild ini.
+[2026-09-06 08:13:43] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-06 08:13:43] [INFO] [__main__] Terhubung ke 2 server.
+[2026-09-06 08:13:44] [INFO] [cogs.invites] Invite cache dimuat untuk 2 guild.
+[2026-09-06 08:16:29] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-06 08:16:35] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-06 08:16:35] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-06 08:16:35] [INFO] [discord.client] logging in using static token
+[2026-09-06 08:16:36] [INFO] [__main__] Menginisialisasi database...
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-06 08:16:36] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-06 08:16:36] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (15 command). Perubahan langsung terlihat di guild ini.
+[2026-09-06 08:16:39] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-06 08:16:39] [INFO] [__main__] Terhubung ke 2 server.
+[2026-09-06 08:16:40] [INFO] [cogs.invites] Invite cache dimuat untuk 2 guild.
+[2026-09-06 08:21:53] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-06 08:21:59] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-06 08:21:59] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-06 08:21:59] [INFO] [discord.client] logging in using static token
+[2026-09-06 08:21:59] [INFO] [__main__] Menginisialisasi database...
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-06 08:21:59] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-06 08:22:00] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (15 command). Perubahan langsung terlihat di guild ini.
+[2026-09-06 08:22:02] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-06 08:22:02] [INFO] [__main__] Terhubung ke 2 server.
+[2026-09-06 08:22:03] [INFO] [cogs.invites] Invite cache dimuat untuk 2 guild.
+[2026-09-06 17:01:21] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-06 17:01:28] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-06 17:01:28] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-06 17:01:28] [INFO] [discord.client] logging in using static token
+[2026-09-06 17:01:29] [INFO] [__main__] Menginisialisasi database...
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-06 17:01:29] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-06 17:01:29] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-06 17:01:29] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (15 command). Perubahan langsung terlihat di guild ini.
+[2026-09-06 17:01:33] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-06 17:01:33] [INFO] [__main__] Terhubung ke 2 server.
+[2026-09-06 17:01:33] [INFO] [cogs.invites] Invite cache dimuat untuk 2 guild.
+[2026-09-06 17:32:47] [ERROR] [discord.ext.commands.bot] Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "mainkan" is not found
+[2026-09-06 23:42:41] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-06 23:42:48] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-06 23:42:48] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-06 23:42:48] [INFO] [discord.client] logging in using static token
+[2026-09-06 23:42:49] [INFO] [__main__] Menginisialisasi database...
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-06 23:42:49] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-06 23:42:49] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-06 23:42:49] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (15 command). Perubahan langsung terlihat di guild ini.
+[2026-09-06 23:42:52] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-06 23:42:52] [INFO] [__main__] Terhubung ke 2 server.
+[2026-09-06 23:42:53] [INFO] [cogs.invites] Invite cache dimuat untuk 2 guild.
+[2026-09-07 17:17:36] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-07 17:18:26] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-07 17:18:26] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-07 17:18:26] [INFO] [discord.client] logging in using static token
+[2026-09-07 17:18:27] [INFO] [__main__] Menginisialisasi database...
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-07 17:18:27] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-07 17:18:27] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-07 17:18:28] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-07 17:18:30] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-07 17:18:30] [INFO] [__main__] Terhubung ke 2 server.
+[2026-09-07 17:18:31] [INFO] [cogs.invites] Invite cache dimuat untuk 2 guild.
+[2026-09-07 17:19:11] [ERROR] [utils.error_handler] Unhandled application command error pada command 'custom list': Traceback (most recent call last):
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/app_commands/commands.py", line 859, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/cogs/custom_messages.py", line 157, in custom_list
+    drafts = await repo.list_custom_message_drafts(interaction.guild_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'database.repositories' has no attribute 'list_custom_message_drafts'
+
+[2026-09-07 17:20:03] [ERROR] [utils.error_handler] Unhandled application command error pada command 'custom create': Traceback (most recent call last):
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/app_commands/commands.py", line 859, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/cogs/custom_messages.py", line 135, in custom_create
+    draft = await repo.create_custom_message_draft(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'database.repositories' has no attribute 'create_custom_message_draft'
+
+[2026-09-07 17:20:26] [ERROR] [utils.error_handler] Unhandled application command error pada command 'custom send': Traceback (most recent call last):
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/app_commands/commands.py", line 859, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/cogs/custom_messages.py", line 302, in custom_send
+    draft = await get_draft_or_error(interaction, draft_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/cogs/custom_messages.py", line 44, in get_draft_or_error
+    draft = await repo.get_custom_message_draft(draft_id, interaction.guild_id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'database.repositories' has no attribute 'get_custom_message_draft'
+
+[2026-09-07 17:37:19] [INFO] [__main__] Bergabung ke guild baru: HOTSTAR PRODUCTION (1523289575282311349)
+[2026-09-07 17:44:11] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-07 17:44:18] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-07 17:44:18] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-07 17:44:18] [INFO] [discord.client] logging in using static token
+[2026-09-07 17:44:19] [INFO] [__main__] Menginisialisasi database...
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-07 17:44:19] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-07 17:44:19] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-07 17:44:19] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-07 17:44:23] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-07 17:44:23] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-07 17:44:25] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-07 17:57:04] [ERROR] [discord.ui.view] Ignoring exception in view <AnnouncementConfirmView timeout=120 children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=True label='Kirim' emoji=<PartialEmoji animated=False name='📢' id=None> row=None sku_id=None id=None>
+Traceback (most recent call last):
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/ui/view.py", line 598, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/container/cogs/announcements.py", line 35, in send_button
+    await interaction.response.edit_message(content="✅ Announcement terkirim.", view=self)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/interactions.py", line 1234, in edit_message
+    data = await adapter.create_interaction_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2026-09-07 18:37:37] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-07 18:37:44] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-07 18:37:44] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-07 18:37:44] [INFO] [discord.client] logging in using static token
+[2026-09-07 18:37:44] [INFO] [__main__] Menginisialisasi database...
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-07 18:37:45] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-07 18:37:45] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-07 18:37:45] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-07 18:37:48] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-07 18:37:48] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-07 18:37:49] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-07 20:45:22] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-07 20:45:28] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-07 20:45:28] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-07 20:45:28] [INFO] [discord.client] logging in using static token
+[2026-09-07 20:45:29] [INFO] [__main__] Menginisialisasi database...
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-07 20:45:29] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-07 20:45:29] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-07 20:45:30] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-07 20:45:33] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-07 20:45:33] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-07 20:45:34] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-07 20:47:25] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-07 20:47:32] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-07 20:47:32] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-07 20:47:32] [INFO] [discord.client] logging in using static token
+[2026-09-07 20:47:33] [INFO] [__main__] Menginisialisasi database...
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-07 20:47:33] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-07 20:47:33] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-07 20:47:34] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-07 20:47:36] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-07 20:47:36] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-07 20:47:38] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-07 20:47:40] [ERROR] [utils.error_handler] Unhandled application command error pada command 'help': Traceback (most recent call last):
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/app_commands/commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/cogs/general.py", line 34, in help_command
+    await interaction.response.send_message(view=HelpView(content=content), ephemeral=True)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/interactions.py", line 1085, in send_message
+    data = await adapter.create_interaction_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/webhook/async_.py", line 226, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.components.0.components.1.components.0.options.0.emoji.name: Invalid emoji
+
+[2026-09-07 20:48:12] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-07 20:48:18] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-07 20:48:18] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-07 20:48:18] [INFO] [discord.client] logging in using static token
+[2026-09-07 20:48:20] [INFO] [__main__] Menginisialisasi database...
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-07 20:48:20] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-07 20:48:20] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-07 20:48:21] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-07 20:48:23] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-07 20:48:23] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-07 20:48:25] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-07 21:06:51] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-07 21:06:58] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-07 21:06:58] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-07 21:06:58] [INFO] [discord.client] logging in using static token
+[2026-09-07 21:06:59] [INFO] [__main__] Menginisialisasi database...
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-07 21:06:59] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-07 21:06:59] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-07 21:06:59] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-07 21:07:02] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-07 21:07:02] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-07 21:07:03] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-07 21:07:09] [INFO] [ui.help_view] Application emoji /help dibuat: help_general
+[2026-09-07 21:07:09] [INFO] [ui.help_view] Application emoji /help dibuat: help_welcome
+[2026-09-07 21:07:10] [INFO] [ui.help_view] Application emoji /help dibuat: help_role
+[2026-09-07 21:07:10] [INFO] [ui.help_view] Application emoji /help dibuat: help_ticket
+[2026-09-07 21:07:11] [INFO] [ui.help_view] Application emoji /help dibuat: help_logging
+[2026-09-07 21:07:11] [INFO] [ui.help_view] Application emoji /help dibuat: help_notification
+[2026-09-07 21:07:11] [INFO] [ui.help_view] Application emoji /help dibuat: help_admin
+[2026-09-07 21:07:12] [INFO] [ui.help_view] Application emoji /help dibuat: help_image
+[2026-09-07 21:07:12] [INFO] [ui.help_view] Application emoji /help dibuat: help_custom_message
+[2026-09-07 21:37:40] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-07 21:37:47] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-07 21:37:47] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-07 21:37:47] [INFO] [discord.client] logging in using static token
+[2026-09-07 21:37:48] [INFO] [__main__] Menginisialisasi database...
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-07 21:37:48] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-07 21:37:48] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-07 21:37:48] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-07 21:37:51] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-07 21:37:51] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-07 21:37:52] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-07 21:52:07] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-07 21:52:14] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-07 21:52:14] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-07 21:52:14] [INFO] [discord.client] logging in using static token
+[2026-09-07 21:52:14] [INFO] [__main__] Menginisialisasi database...
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-07 21:52:14] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-07 21:52:14] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-07 21:52:15] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-07 21:52:17] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-07 21:52:17] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-07 21:52:18] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-08 01:03:46] [ERROR] [__main__] Gagal memperbarui activity, akan mencoba lagi nanti.
+Traceback (most recent call last):
+  File "/home/container/bot.py", line 176, in _rotate_activities
+    await self.change_presence(activity=activity)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/client.py", line 2156, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/gateway.py", line 723, in change_presence
+    await self.send(sent)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/gateway.py", line 677, in send
+    await self.socket.send_str(data)
+  File "/home/container/.venv/lib/python3.12/site-packages/aiohttp/client_ws.py", line 289, in send_str
+    await self._writer.send_frame(
+  File "/home/container/.venv/lib/python3.12/site-packages/aiohttp/_websocket/writer.py", line 78, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+[2026-09-08 01:12:44] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-08 01:12:51] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-08 01:12:51] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-08 01:12:51] [INFO] [discord.client] logging in using static token
+[2026-09-08 01:12:52] [INFO] [__main__] Menginisialisasi database...
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-08 01:12:52] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-08 01:12:52] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-08 01:12:52] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-08 01:12:55] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-08 01:12:55] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-08 01:12:56] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-08 02:09:59] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-08 02:10:06] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-08 02:10:06] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-08 02:10:06] [INFO] [discord.client] logging in using static token
+[2026-09-08 02:10:07] [INFO] [__main__] Menginisialisasi database...
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-08 02:10:07] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-08 02:10:07] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-08 02:10:08] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-08 02:10:11] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-08 02:10:11] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-08 02:10:12] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-09 23:19:17] [ERROR] [__main__] Gagal memperbarui activity, akan mencoba lagi nanti.
+Traceback (most recent call last):
+  File "/home/container/bot.py", line 176, in _rotate_activities
+    await self.change_presence(activity=activity)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/client.py", line 2156, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/gateway.py", line 723, in change_presence
+    await self.send(sent)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/gateway.py", line 677, in send
+    await self.socket.send_str(data)
+  File "/home/container/.venv/lib/python3.12/site-packages/aiohttp/client_ws.py", line 289, in send_str
+    await self._writer.send_frame(
+  File "/home/container/.venv/lib/python3.12/site-packages/aiohttp/_websocket/writer.py", line 78, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+[2026-09-10 08:01:54] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-10 08:02:01] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-10 08:02:01] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-10 08:02:01] [INFO] [discord.client] logging in using static token
+[2026-09-10 08:02:02] [INFO] [__main__] Menginisialisasi database...
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-10 08:02:02] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-10 08:02:02] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-10 08:02:02] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-10 08:02:05] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-10 08:02:05] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-10 08:02:06] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-10 08:12:10] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-10 08:12:18] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-10 08:12:18] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-10 08:12:18] [INFO] [discord.client] logging in using static token
+[2026-09-10 08:12:18] [INFO] [__main__] Menginisialisasi database...
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-10 08:12:18] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-10 08:12:18] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-10 08:12:19] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-10 08:12:19] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (16 command). Perubahan langsung terlihat di guild ini.
+[2026-09-10 08:12:22] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-10 08:12:22] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-10 08:12:23] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-10 19:11:27] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-10 19:11:33] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-10 19:11:33] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-10 19:11:33] [INFO] [discord.client] logging in using static token
+[2026-09-10 19:11:34] [INFO] [__main__] Menginisialisasi database...
+[2026-09-10 19:11:34] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-10 19:11:34] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-10 19:11:34] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-10 19:11:34] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-10 19:11:34] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-10 19:11:34] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-10 19:11:34] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-10 19:11:34] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-10 19:11:34] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-10 19:11:35] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-10 19:11:35] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-10 19:11:35] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-10 19:11:35] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-10 19:11:35] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-10 19:11:35] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-10 19:11:38] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-10 19:11:38] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-10 19:11:39] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-10 20:36:11] [ERROR] [__main__] Gagal memperbarui activity, akan mencoba lagi nanti.
+Traceback (most recent call last):
+  File "/home/container/bot.py", line 177, in _rotate_activities
+    await self.change_presence(activity=activity)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/client.py", line 2156, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/gateway.py", line 723, in change_presence
+    await self.send(sent)
+  File "/home/container/.venv/lib/python3.12/site-packages/discord/gateway.py", line 677, in send
+    await self.socket.send_str(data)
+  File "/home/container/.venv/lib/python3.12/site-packages/aiohttp/client_ws.py", line 289, in send_str
+    await self._writer.send_frame(
+  File "/home/container/.venv/lib/python3.12/site-packages/aiohttp/_websocket/writer.py", line 78, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+[2026-09-10 23:21:07] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-10 23:21:15] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-10 23:21:15] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-10 23:21:15] [INFO] [discord.client] logging in using static token
+[2026-09-10 23:21:15] [INFO] [__main__] Menginisialisasi database...
+[2026-09-10 23:21:15] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-10 23:21:15] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-10 23:21:16] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-10 23:21:16] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-10 23:21:16] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-10 23:21:19] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-10 23:21:19] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-10 23:21:20] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-10 23:25:28] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-10 23:25:35] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-10 23:25:35] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-10 23:25:35] [INFO] [discord.client] logging in using static token
+[2026-09-10 23:25:35] [INFO] [__main__] Menginisialisasi database...
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-10 23:25:35] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-10 23:25:35] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-10 23:25:36] [ERROR] [__main__] Web dashboard/editor gagal dijalankan; slash fallback tetap aktif.
+Traceback (most recent call last):
+  File "/home/container/bot.py", line 92, in setup_hook
+    await self.custom_web_server.start()
+  File "/home/container/services/custom_web.py", line 76, in start
+    await self.site.start()
+  File "/home/container/.venv/lib/python3.12/site-packages/aiohttp/web_runner.py", line 138, in start
+    self._server = await loop.create_server(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 1538, in create_server
+    infos = await tasks.gather(*fs)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 1470, in _create_server_getaddrinfo
+    infos = await self._ensure_resolved((host, port), family=family,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 1466, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+[2026-09-10 23:25:36] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-10 23:25:39] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-10 23:25:39] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-10 23:25:40] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-10 23:27:44] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-10 23:27:50] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-10 23:27:50] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-10 23:27:50] [INFO] [discord.client] logging in using static token
+[2026-09-10 23:27:52] [INFO] [__main__] Menginisialisasi database...
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-10 23:27:52] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-10 23:27:52] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-10 23:27:53] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-10 23:27:55] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-10 23:27:55] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-10 23:27:56] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-10 23:48:59] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-10 23:49:06] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-10 23:49:06] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-10 23:49:06] [INFO] [discord.client] logging in using static token
+[2026-09-10 23:49:07] [INFO] [__main__] Menginisialisasi database...
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-10 23:49:07] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-10 23:49:07] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-10 23:49:07] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-10 23:49:10] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-10 23:49:10] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-10 23:49:11] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-11 01:57:46] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-11 01:57:52] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-11 01:57:52] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-11 01:57:52] [INFO] [discord.client] logging in using static token
+[2026-09-11 01:57:53] [INFO] [__main__] Menginisialisasi database...
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-11 01:57:53] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-11 01:57:53] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-11 01:57:53] [INFO] [services.custom_web] Web dashboard/editor aktif di http://0.0.0.0:8080
+[2026-09-11 01:57:53] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-11 01:57:56] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-11 01:57:56] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-11 01:57:57] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-11 01:59:35] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-11 01:59:42] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-11 01:59:42] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-11 01:59:42] [INFO] [discord.client] logging in using static token
+[2026-09-11 01:59:42] [INFO] [__main__] Menginisialisasi database...
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-11 01:59:42] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-11 01:59:42] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-11 01:59:42] [INFO] [services.custom_web] Web dashboard/editor aktif di http://0.0.0.0:8080
+[2026-09-11 01:59:43] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-11 01:59:46] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-11 01:59:46] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-11 01:59:47] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-11 02:03:40] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-11 02:03:46] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-11 02:03:46] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-11 02:03:46] [INFO] [discord.client] logging in using static token
+[2026-09-11 02:03:47] [INFO] [__main__] Menginisialisasi database...
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-11 02:03:47] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-11 02:03:47] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-11 02:03:47] [INFO] [services.custom_web] Web dashboard/editor aktif di http://0.0.0.0:8080
+[2026-09-11 02:03:48] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-11 02:03:51] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-11 02:03:51] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-11 02:03:52] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-11 02:07:29] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-11 02:07:36] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-11 02:07:36] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-11 02:07:36] [INFO] [discord.client] logging in using static token
+[2026-09-11 02:07:37] [INFO] [__main__] Menginisialisasi database...
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-11 02:07:37] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-11 02:07:37] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-11 02:07:38] [INFO] [services.custom_web] Web dashboard/editor aktif di http://0.0.0.0:10034
+[2026-09-11 02:07:38] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-11 02:07:41] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-11 02:07:41] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-11 02:07:42] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-11 02:12:43] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-11 02:12:50] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-11 02:12:50] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-11 02:12:50] [INFO] [discord.client] logging in using static token
+[2026-09-11 02:12:51] [INFO] [__main__] Menginisialisasi database...
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-11 02:12:51] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-11 02:12:51] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-11 02:12:51] [INFO] [services.custom_web] Web dashboard/editor aktif di http://0.0.0.0:10034
+[2026-09-11 02:12:51] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-11 02:12:54] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-11 02:12:54] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-11 02:12:55] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-11 03:23:17] [INFO] [__main__] Gateway Discord sedang reconnect; pembaruan activity ditunda.
+[2026-09-11 04:57:40] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-11 04:57:46] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-11 04:57:46] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-11 04:57:47] [INFO] [discord.client] logging in using static token
+[2026-09-11 04:57:47] [INFO] [__main__] Menginisialisasi database...
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-11 04:57:47] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-11 04:57:47] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-11 04:57:47] [INFO] [services.custom_web] Web dashboard/editor aktif di http://0.0.0.0:10034
+[2026-09-11 04:57:48] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-11 04:57:51] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-11 04:57:51] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-11 04:57:52] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-12 08:36:41] [INFO] [__main__] Sinyal shutdown diterima, menutup bot dengan rapi...
+[2026-09-12 08:36:47] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-12 08:36:47] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
+[2026-09-12 08:36:47] [INFO] [discord.client] logging in using static token
+[2026-09-12 08:36:48] [INFO] [__main__] Menginisialisasi database...
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.general
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.settings
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.welcome
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.invites
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.roles
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.announcements
+[2026-09-12 08:36:48] [INFO] [cogs.tickets] Scheduler auto-close ticket aktif.
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.tickets
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.logging_cog
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.notifications
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.images
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.payments
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.custom_messages
+[2026-09-12 08:36:48] [INFO] [__main__] Cog dimuat: cogs.anti_nuke
+[2026-09-12 08:36:48] [INFO] [services.custom_web] Web dashboard/editor aktif di http://0.0.0.0:10034
+[2026-09-12 08:36:49] [INFO] [__main__] Slash command di-sync ke DEV_GUILD_ID=1224099200355270706 (17 command). Perubahan langsung terlihat di guild ini.
+[2026-09-12 08:36:51] [INFO] [__main__] Bot login sebagai damzbaik#4353 (ID: 1085893741090443344)
+[2026-09-12 08:36:51] [INFO] [__main__] Terhubung ke 3 server.
+[2026-09-12 08:36:52] [WARNING] [ui.ticket_views] Panel ticket 2 gagal diperbarui ke Components V2.
+[2026-09-12 08:36:53] [INFO] [cogs.invites] Invite cache dimuat untuk 3 guild.
+[2026-09-12 09:37:26] [INFO] [__main__] Gateway Discord sedang reconnect; pembaruan activity ditunda.
+[2026-09-17 19:29:49] [WARNING] [discord.client] PyNaCl is not installed, voice will NOT be supported
+[2026-09-17 19:29:49] [WARNING] [discord.client] davey is not installed, voice will NOT be supported
